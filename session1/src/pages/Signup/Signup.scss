@@ -1,0 +1,25 @@
+.signup-container {
+    font-weight: bold;
+    padding: 40px;
+    background-color: #ccc9ea;
+    text-align: center;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label p {
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.label input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
