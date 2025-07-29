@@ -1,0 +1,26 @@
+.login-container {
+  font-weight: bold;
+  padding: 40px;
+  background-color: #ccc9ea;
+  text-align: center;
+}
+
+.login-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #7070bf;
+  border: 1px solid #aaa;
+}

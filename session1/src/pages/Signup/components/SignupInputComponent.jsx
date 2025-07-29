@@ -24,7 +24,7 @@ const SignupInputComponent = () => {
           <input placeholder="닉네임을 입력해주세요" />
         </div>
             <div className='signupButton'>
-                <button>가입하기</button>
+                <button className='signup-btn'>가입하기</button>
         </div>
       </div>
     );
