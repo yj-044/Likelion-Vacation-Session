@@ -1,0 +1,27 @@
+.post-detail {
+  padding: 40px;
+
+  .detail-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .detail-meta {
+    font-size: 13px;
+    color: gray;
+    margin: 6px 0 20px;
+  }
+
+  .detail-content {
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #c9c5fa;
+    background-color: #c9c5fa;
+    padding: 10px;
+  }
+}
