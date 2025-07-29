@@ -1,0 +1,45 @@
+.work-detail {
+  padding: 30px;
+}
+
+.detail-title {
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.detail-text {
+  font-size: 15px;
+}
+
+.detail-date {
+  text-align: left;
+  font-size: 15px;
+  color: gray;
+}
+
+.down-title {
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-button {
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  &:hover {
+    background-color: #e5e5e5;
+  }
+
+  &.selected {
+    background-color: #3931a8;
+    color: white;
+    border-color: #3931a8;
+  }
+}

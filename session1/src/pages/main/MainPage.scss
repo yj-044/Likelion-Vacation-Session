@@ -1,0 +1,41 @@
+.screen-container {
+  background-color: #e6edf5;
+  padding: 40px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+}
+
+.box-component {
+  flex: 1;
+  padding: 30px;
+  text-align: left;
+  height: 200px;
+  padding: 30px;
+}
+
+.side-box {
+  flex: 1;
+  background-color: #d7d5d5;
+  height: 200px;
+  padding: 30px;
+}
+
+.number {
+  background-color: #5a90c4;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
